@@ -1,0 +1,168 @@
+.back-home{
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+.backArrow{
+    position: relative;
+    height: 32px;
+}
+.payment-text{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #000000;
+}
+
+.flex-one{
+    @media (min-width:768px) {
+        display: flex;
+    }
+}
+.flex-two{
+    @media (min-width:768px) {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.left{
+    @media (min-width:768px) {
+        width: 40%;
+        height: auto;
+    }
+}
+.appliance-text{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+
+    color: #393939;
+}
+.location-text{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-size: 24px;
+
+    color: #393939;
+}
+.prepayment-text{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-size: 18px;
+    color: #BBBECD;
+}
+.code-text{
+    font-family: 'Playfair Display';
+    font-size: 26px;
+    font-weight: bold;
+    color: #393939;
+}
+.btn-booking{
+    width: 100%;
+    height: 42px;
+    background: #FFCF61;
+
+    font-weight: bold;
+
+    border: none;
+    border-radius: 10px;
+
+    @media (min-width:768px) {
+        width: 212px;
+    }
+}
+.btn-booking:active{
+    background: #393939;
+    color: #FFCF61;
+}
+.right{
+    margin-top: 20px;
+    @media (min-width:768px) {
+        margin-top: 0;
+        width: 58%;
+        margin-left: 2%;
+    }
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.box-text{
+    border: 1px solid #8091BE;
+    border-radius: 10px;
+    padding: 10px;
+}
+.box-text-two{
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 100%;
+    border: 1px solid #8091BE;
+    border-radius: 10px;
+    @media (min-width:768px) {
+        width: 30%;
+    }
+    @media (min-width:1024px) {
+        width: 40%;
+    }
+}
+.box-text-bold{
+    font-family: 'Nunito';
+    font-size: 24;
+    font-weight: bold;
+
+    color: #393939;
+
+    margin-top: 10px;
+}
+.box-normal-text{
+    font-family: 'Nunito';
+    font-size: 24;
+    font-weight: normal;
+
+    color: #393939;
+
+    margin-top: 10px;
+}
+.btn-copy{
+    width: 80px;
+    height: 42px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: #393939;
+    color: #FFCF61;
+}
+.btn-copy:active{
+    background: #FFCF61;
+    color: #393939;
+}
+
+.temp-select{
+    margin-top: 20px;
+    @media (min-width:768px) {
+        margin-top: 0;
+    }
+}
+
+.btn-finish{
+    width: 100%;
+    height: 52px;
+
+    font-weight: bold;
+
+    border: none;
+    border-radius: 10px;
+
+    background: #FFCF61;
+}
+.btn-finish:active{
+    background: #393939;
+    color: #FFCF61;
+}
